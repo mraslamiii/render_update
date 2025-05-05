@@ -8,7 +8,14 @@ environment:
   flutter: '>=3.7.0-1.4.pre'
 
 dependencies:
-  ffmpeg_kit_flutter_minimal: ^6.0.4
+
+
+
+
+
+  ffmpeg_kit_flutter_new:
+    path: ../storyfont-refactor/ffmpeg_kit_flutter-master
+
   provider: ^6.0.5
   flutter:
     sdk: flutter
