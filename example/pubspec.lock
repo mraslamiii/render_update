@@ -84,9 +84,11 @@ packages:
   ffmpeg_kit_flutter_new:
     dependency: transitive
     description:
-      path: "../../storyfont-refactor/ffmpeg_kit_flutter-master"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: "7baa19f888c82aa98cffc84ab9d0fd1690ac5e2f"
+      url: "git@github.com:mraslamiii/ffmpeg_kit_flutter.git"
+    source: git
     version: "1.1.0"
   ffmpeg_kit_flutter_platform_interface:
     dependency: transitive
