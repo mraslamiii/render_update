@@ -1,8 +1,5 @@
 import 'dart:io';
 
-
-
-
 import 'package:ffmpeg_kit_flutter_new/ffmpeg_kit_config.dart';
 import 'package:ffmpeg_kit_flutter_new/ffmpeg_session.dart';
 import 'package:ffmpeg_kit_flutter_new/log.dart';
@@ -30,8 +27,7 @@ abstract class RenderProcessor<T extends RenderFormat> {
     }
     _processing = true;
     try {
-      final output =
-          await _processTask(session.format.processShare);
+      final output = await _processTask(session.format.processShare);
       session.recordResult(output);
       _processing = false;
     } on RenderException catch (error) {
